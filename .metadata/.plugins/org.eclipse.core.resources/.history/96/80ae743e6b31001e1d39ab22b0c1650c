@@ -1,0 +1,27 @@
+package principal;
+
+public class Variaveis {
+	
+	public static void main(String[] args) {
+		int numero = 10;
+		// numero = 10;
+		
+		double decimal = 10.50;
+		
+		// O casting faz o arredondamento nesse caso.
+		int testeNumero = (int) 55.55;
+		// Ele transformar o int em double implicitamente
+		double testeNovoNumero = 10;
+		
+		String nome = "Marcos Vinicius";
+		// O char é criado com aspas simples.
+		char sexo = 'F';
+		
+		System.out.println(numero);
+		System.out.println(decimal);		
+		System.out.println(testeNumero);
+		System.out.println(testeNovoNumero);
+		
+	}
+
+}

@@ -1,0 +1,11 @@
+package principal;
+
+// Classe principal
+public class OlaMundo {
+	
+	// metodo principal
+	public static void main(String[] args) {
+		System.out.println("Hello world, Olá Mundo");
+	}
+
+}

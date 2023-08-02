@@ -1,0 +1,10 @@
+package principal;
+
+public class OlaMundo {
+	
+	public static void main(String[] args) {
+		// TOFIX arrumar
+		System.out.println("Olá Mundo");
+	}
+
+}
