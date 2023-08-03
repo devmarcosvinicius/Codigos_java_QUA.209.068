@@ -1,6 +1,6 @@
 package com.marcosviniciusdev;
 
-public class Atividade2 {
+public class Atividade02 {
 	
 	public static void main(String[] args) {
 		

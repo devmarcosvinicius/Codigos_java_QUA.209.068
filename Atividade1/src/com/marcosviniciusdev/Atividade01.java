@@ -1,8 +1,10 @@
 package com.marcosviniciusdev;
 
-public class PrimeiraAtividade {
+// 
+public class Atividade01 {
 	
 	public static void main(String[] args) {
+		// Criar duas variaveis e imprimir na tela o resultado da soma.
 		int numero1 = 5;
 		int numero2 = 4;
 		
@@ -12,6 +14,8 @@ public class PrimeiraAtividade {
 		double double2 = 44.82;
 		
 		System.out.println(double1 + double2);
+		
+		// Imprimir na tela todos os tipos de variaveis usadas em sala.
 		
 		String string1 = "Hello WRLD";
 		
