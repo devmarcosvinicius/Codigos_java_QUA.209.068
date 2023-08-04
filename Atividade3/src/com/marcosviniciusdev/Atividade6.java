@@ -24,8 +24,8 @@ public class Atividade6 {
 		double valorTotal = mes1 + mes2 + mes3;
 		double mediaFinal = valorTotal / 6;
 		
-		System.out.println("Valor total gasto nos três meses: R$" + valorTotal);
-		System.out.println("Media do valor gasto nos três meses: R$" + mediaFinal);
+		System.out.printf("Valor total gasto nos três meses: R$ %.2f\n", valorTotal);
+		System.out.printf("Media do valor gasto nos três meses: R$ %.2f\n", mediaFinal);
 		
 		sc.close();
 	}
