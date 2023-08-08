@@ -11,7 +11,7 @@ public class Atividade02 {
 
 		System.out.println("Digite um numero inteiro: ");
 		int num = sc.nextInt();
-
+		
 		if (num % 2 == 0) {
 			System.out.printf("O numero %d é par.", num);
 		} else {

@@ -24,7 +24,7 @@ public class Atividade07 {
 		
 		double media = (nota1 + nota2 + nota3 + nota4) / 4;
 		
-		if (media >= 10) {
+		if (media == 10) {
 			System.out.println("Parabens, você foi aprovado com honras!!!");
 		} else if (media >= 7) {
 			System.out.println("Parabens, você foi aprovado!");
