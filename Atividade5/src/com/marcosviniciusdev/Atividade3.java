@@ -10,6 +10,16 @@ public class Atividade3 {
 				System.out.println(i);
 			}
 		}
+		
+		System.out.println("\n=-=-=-=-=-=-=-=-= Outra opção =-=-=-=-=-=-=-=-=");
+		
+		for (int i = 1; i <= 50; i += 2) {
+			System.out.println(i);
+		}
+		
+		for (int i = 0; i <= 50; ++i) {
+			System.out.println(i);
+		}
 	}
 
 }

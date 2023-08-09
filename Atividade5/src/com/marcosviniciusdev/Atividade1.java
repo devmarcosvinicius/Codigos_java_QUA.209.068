@@ -4,8 +4,7 @@ import java.util.Scanner;
 public class Atividade1 {
 	
 	public static void main(String[] args) {
-		/*
-		 * Faça um programa que peça uma nota, entre zero e dez.
+		/* Faça um programa que peça uma nota, entre zero e dez.
 		 * Mostre uma mensagem caso o valor seja inválido e continue até que o usuario informe um valor válido.
 		 */
 		
