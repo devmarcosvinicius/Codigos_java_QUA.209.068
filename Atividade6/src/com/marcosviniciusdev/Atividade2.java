@@ -29,13 +29,16 @@ public class Atividade2 {
 			operacao = sc.next().charAt(0);
 		}
 		
-		for (int i = 0; i <= 10; i++) {
+		int aux = numero;
+		for (int i = 1; i <= 10; i++) {
 			if (operacao == '+') {
 				System.out.printf("%d %c %d = %d\n", numero, operacao, i, numero + i);
 			} else if (operacao == '-') {
-				System.out.printf("%d %c %d = %d\n", numero, operacao, i, numero - i);
+				System.out.printf("%d %c %d = %d\n", (aux + i), operacao, i, (aux + i) + i);
 			} else if (operacao == '/') {
-				System.out.printf("%d %c %d = %d\n", numero, operacao, i, numero / i);
+				System.out.println(
+				(numero * i) + " / " + numero + " = " + (numero * i / numero)
+				);
 			} else if (operacao == '*') {
 				System.out.printf("%d %c %d = %d\n", numero, operacao, i, numero * i);
 			}
