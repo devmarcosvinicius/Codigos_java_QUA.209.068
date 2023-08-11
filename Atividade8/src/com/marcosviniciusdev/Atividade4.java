@@ -13,13 +13,14 @@ public class Atividade4 {
 		
 		Scanner sc = new Scanner(System.in);
 		
-		int[] numeros = new int[20];
+		int[] numeros = new int[3];
 		
-		for (int i = 0; i < numeros.length; i++) {
+		for (int i = 1; i < numeros.length; i++) {
 			
 			do {
-				System.out.println("Digite o " + (i + 1) + " valor a ser inserido: ");
+				System.out.println("Digite o " + (i) + " valor a ser inserido: ");
 				numeros[i] = sc.nextInt();
+				numeros[0] += numeros[i];
 			} while (numeros[i] <= 0);
 		}
 		
