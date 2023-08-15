@@ -11,18 +11,22 @@ public class Atividade3 {
 		
 		Scanner sc = new Scanner(System.in);
 		
+		// Criando as variaveis.
 		double num1, num2;
 		
+		// Obtendo o primeiro numero e valindo o numero para se diferente de zero.
 		do {
 			System.out.println("Digite o primeiro numero: (!= 0) ");
 			num1 = sc.nextDouble();
 		} while (num1 == 0);
-		
+
+		// Obtendo o segundo numero e valindo o numero para se diferente de zero.
 		do {
 			System.out.println("Digite o segundo numero: (!= 0) ");
 			num2 = sc.nextDouble();
 		} while (num2 == 0);
 		
+		// Imprimindo a divisão do primeiro numero pelo segundo numero.
 		System.out.println(num1 + "/" + num2 + " = " + (num1 / num2));
 		
 		sc.close();

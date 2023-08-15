@@ -13,10 +13,13 @@ public class Atividade4 {
 		
 		Scanner sc = new Scanner(System.in);
 		
+		// Criando o vetor de 3 posições.
 		int[] numeros = new int[3];
 		
+		// Criando o loop para percorrer o vetor para inserir os dados do usuario.
 		for (int i = 1; i < numeros.length; i++) {
 			
+			// Validando os dados inseridos pelo usuarios para não ser menor ou igual a zero.
 			do {
 				System.out.println("Digite o " + (i) + " valor a ser inserido: ");
 				numeros[i] = sc.nextInt();
@@ -24,8 +27,10 @@ public class Atividade4 {
 			} while (numeros[i] <= 0);
 		}
 		
+		// Imprimindo o titulo para organização.
 		System.out.println("=-=-=-=-= A lista do elementos do vetor =-=-=-=-=");
 		
+		// Imprimindo o vetor com um foreach.
 		for (int numero: numeros) {
 			System.out.println(numero);
 		}
