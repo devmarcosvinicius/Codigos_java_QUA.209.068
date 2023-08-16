@@ -4,6 +4,9 @@ import java.util.Scanner;
 
 public class Atividade02 {
 
+	static double INSS = .05;
+	static double IRPF = .11;
+
 	public static void main(String[] args) {
 		/*
 		 * Faça um programa que receba o salario e a quantidade de venda total que o
@@ -35,32 +38,33 @@ public class Atividade02 {
 		double vendas = sc.nextDouble();
 		
 		System.out.println("\n\n=-=-=-=-=-= Holerite =-=-=-=-=-=");
-		System.out.println("Salario bruto: \n\t" + salario);
-		System.out.println("Bonificação:\n\t R$" + calcularComissao(vendas));
-		System.out.printf("Descontos: \n\tINSS -R$%.2f \n\tIRPF -R$%.2f\n", (salario * .05), (salario * .11));
-		System.out.printf("Salario final:\n\t R$%.2f", (salario + calcularComissao(vendas) - calcularImposto(vendas, salario)));
+		System.out.printf("Salario bruto: \n\tR$%.2f\n", salario);
+		System.out.printf("Bonificação:\n\t R$%.2f\n", calcularComissao(vendas));
+		System.out.printf("Descontos: \n\tINSS -R$%.2f \n\tIRPF -R$%.2f\n", (salario * INSS), (salario * IRPF));
+		System.out.printf("Salario final:\n\t R$%.2f", (salario + calcularComissao(vendas) - calcularImposto(salario)));
+		
+		if (calcularComissao(vendas) < 10000) {
+			System.out.println("\n\nNão desista, persistencia é a chave.");
+		}
 		
 		sc.close();
 		
 	}
 	
-	static double calcularImposto(double vendas, double salarioBruto) {
-		double inss = (salarioBruto + calcularComissao(vendas)) * .5;
-		double irpf = (salarioBruto + calcularComissao(vendas)) * .11;
-		
-		return inss + irpf;
+	static double calcularImposto(double salarioBruto) {
+		return (salarioBruto * INSS) + (salarioBruto * IRPF);
 	}
 	
 	static double calcularComissao(double vendas) {
 		double bonus = 0;
 		
-		if (vendas > 20.000) {
+		if (vendas > 20000) {
 			bonus = vendas * .05;
-		} else if (vendas > 15 && vendas < 20) {
+		} else if (vendas > 15000) {
 			bonus = vendas * .03;
-		} else if (vendas > 10 && vendas < 15) {
+		} else if (vendas > 10000) {
 			bonus = vendas * .01;
-		} else if (vendas < 10.000) {
+		} else if (vendas < 10000) {
 			bonus = 0;
 		}
 		
