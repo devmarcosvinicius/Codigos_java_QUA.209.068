@@ -4,9 +4,8 @@ public class Usuario {
 	
 	public String nome;
 	public int anoDeNascimento;
-	public int anoAtual;
 	
-	public int obterIdade() {
+	public int obterIdade(int anoAtual) {
 		return anoAtual - anoDeNascimento; 
 	}
 
