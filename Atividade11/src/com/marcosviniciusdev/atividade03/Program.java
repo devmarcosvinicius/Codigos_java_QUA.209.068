@@ -11,6 +11,10 @@ public class Program {
 		
 		Triangulo triagulo = new Triangulo();
 		
+		double x = 8.5;
+		double y = 10.2;
+		System.out.println((x*4/2)+y);
+		
 		System.out.println("Digite o tamanho do primeiro lado do triangulo: ");
 		triagulo.lado1 = sc.nextDouble();
 		
