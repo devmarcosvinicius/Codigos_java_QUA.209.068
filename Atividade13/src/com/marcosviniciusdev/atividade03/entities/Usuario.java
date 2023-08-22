@@ -1,6 +1,6 @@
 package com.marcosviniciusdev.atividade03.entities;
 
-public class Cadastro {
+public class Usuario {
 
 	private String nome;
 	private String email;
@@ -22,16 +22,12 @@ public class Cadastro {
 		this.email = email;
 	}
 
-	public String getPassword() {
-		return password;
-	}
-
 	public void setPassword(String password) {
 		this.password = password;
 	}
 	
 	public void getDados() {
-		System.out.println(getNome() + ", " + getEmail() + ", " + getPassword());
+		System.out.println(getNome() + ", " + getEmail());
 	}
 
 }

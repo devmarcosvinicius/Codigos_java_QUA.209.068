@@ -7,7 +7,7 @@ import com.marcosviniciusdev.atividade01.entities.Carro;
 public class Principal {
 	
 	public static void main(String[] args) {
-		
+
 		Scanner sc = new Scanner(System.in);
 		Carro carro = new Carro();
 		

@@ -2,13 +2,13 @@ package com.marcosviniciusdev.atividade03;
 
 import java.util.Scanner;
 
-import com.marcosviniciusdev.atividade03.entities.Cadastro;
+import com.marcosviniciusdev.atividade03.entities.Usuario;
 
 public class Program {
 	
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		Cadastro cadastro = new Cadastro();
+		Usuario cadastro = new Usuario();
 		
 		System.out.println("Digite o seu nome: ");
 		cadastro.setNome(sc.nextLine());
