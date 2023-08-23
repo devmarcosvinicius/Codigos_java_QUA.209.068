@@ -1,4 +1,4 @@
-package com.marcosviniciusdev.atividade03;
+package com.marcosviniciusdev.atividade03.principal;
 
 import java.util.Scanner;
 

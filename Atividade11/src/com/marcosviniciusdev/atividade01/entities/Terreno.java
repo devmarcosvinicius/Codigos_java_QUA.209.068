@@ -1,4 +1,4 @@
-package com.marcosviniciusdev.atividade01;
+package com.marcosviniciusdev.atividade01.entities;
 
 public class Terreno {
 	

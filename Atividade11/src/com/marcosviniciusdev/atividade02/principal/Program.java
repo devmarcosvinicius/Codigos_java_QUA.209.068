@@ -1,6 +1,8 @@
-package com.marcosviniciusdev.atividade02;
+package com.marcosviniciusdev.atividade02.principal;
 
 import java.util.Scanner;
+
+import com.marcosviniciusdev.atividade02.entities.Usuario;
 
 public class Program {
 	

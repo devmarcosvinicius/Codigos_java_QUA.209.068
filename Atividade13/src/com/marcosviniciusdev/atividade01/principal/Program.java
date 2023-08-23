@@ -1,10 +1,10 @@
-package com.marcosviniciusdev.atividade01;
+package com.marcosviniciusdev.atividade01.principal;
 
 import java.util.Scanner;
 
 import com.marcosviniciusdev.atividade01.entities.Carro;
 
-public class Principal {
+public class Program {
 	
 	public static void main(String[] args) {
 

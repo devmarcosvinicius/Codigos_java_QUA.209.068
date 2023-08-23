@@ -1,4 +1,4 @@
-package com.marcosviniciusdev;
+package com.marcosviniciusdev.principal;
 
 import java.util.Scanner;
 

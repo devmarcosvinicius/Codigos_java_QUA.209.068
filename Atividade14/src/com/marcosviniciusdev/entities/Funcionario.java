@@ -8,11 +8,7 @@ public class Funcionario {
 	protected double bonus;
 
 	public double getBonus() {
-		return salarioBruto + bonus;
-	}
-
-	public void setBonus(double bonus) {
-		this.bonus = bonus;
+		return bonus;
 	}
 
 	public String getNome() {
@@ -27,7 +23,6 @@ public class Funcionario {
 		this.salarioBruto = salarioBruto;
 	}
 
-
 	public int getIdade() {
 		return idade;
 	}
@@ -39,7 +34,7 @@ public class Funcionario {
 	public double getSalarioBruto() {
 		return salarioBruto;
 	}
-	
+
 	public void obterDadosFuncionario() {
 		System.out.println("\n\n=-=-=-=-==-=-=-=-=-=-=-=-=-=-=-=-=-=");
 		System.out.println("Nome: " + getNome());

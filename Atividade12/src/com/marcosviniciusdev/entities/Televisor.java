@@ -1,4 +1,4 @@
-package com.marcosviniciusdev;
+package com.marcosviniciusdev.entities;
 
 public class Televisor {
 	

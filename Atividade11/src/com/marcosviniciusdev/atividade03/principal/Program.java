@@ -1,6 +1,8 @@
-package com.marcosviniciusdev.atividade03;
+package com.marcosviniciusdev.atividade03.principal;
 
 import java.util.Scanner;
+
+import com.marcosviniciusdev.atividade03.entities.Triangulo;
 
 public class Program {
 	

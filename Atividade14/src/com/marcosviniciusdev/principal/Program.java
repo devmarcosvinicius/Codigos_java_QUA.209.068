@@ -23,7 +23,6 @@ public class Program {
 		gerente.setNome("Marcos");
 		gerente.setIdade(25);
 		gerente.setSalarioBruto(5000);
-		gerente.setBonus(500);
 		
 		gerente.obterDadosFuncionario();
 		

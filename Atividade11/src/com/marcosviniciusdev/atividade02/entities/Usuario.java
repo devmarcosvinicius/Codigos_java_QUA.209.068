@@ -1,4 +1,4 @@
-package com.marcosviniciusdev.atividade02;
+package com.marcosviniciusdev.atividade02.entities;
 
 public class Usuario {
 	

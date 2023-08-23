@@ -1,6 +1,8 @@
-package com.marcosviniciusdev.atividade01;
+package com.marcosviniciusdev.atividade01.principal;
 
 import java.util.Scanner;
+
+import com.marcosviniciusdev.atividade01.entities.Terreno;
 
 public class Program {
 	
