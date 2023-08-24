@@ -9,7 +9,6 @@ INDEX VERSION 1.131+C:\Users\Aluno Tarde\Documents\github_QU209.068\Logica de Pr
 66771393.index
 2573973553.index
 1865797976.index
-2312318789.index
 4089516264.index
 2599651451.index
 2455884718.index

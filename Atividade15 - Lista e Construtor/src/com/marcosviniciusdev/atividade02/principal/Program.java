@@ -5,7 +5,7 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.Scanner;
 
-import com.marcosviniciusdev.atividade02.Produto;
+import com.marcosviniciusdev.atividade02.entities.Produto;
 
 public class Program {
 	
