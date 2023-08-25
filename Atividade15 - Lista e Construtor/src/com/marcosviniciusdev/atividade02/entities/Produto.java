@@ -1,6 +1,6 @@
 package com.marcosviniciusdev.atividade02.entities;
 
-public class Produto implements Comparable<Produto> {
+public class Produto {
 	
 	private String nome;
 	private int quantidade;
@@ -53,11 +53,6 @@ public class Produto implements Comparable<Produto> {
 
 	public void setPreco(double preco) {
 		this.preco = preco;
-	}
-
-	@Override
-	public int compareTo(Produto o) {
-		return 0;
 	}
 
 }
