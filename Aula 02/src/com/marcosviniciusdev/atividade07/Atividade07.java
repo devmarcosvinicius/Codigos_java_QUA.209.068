@@ -18,7 +18,7 @@ public class Atividade07 {
         double qnt = sc.nextInt();
 
         for (int i = 0; i < qnt; i++) {
-            System.out.printf("%.0f", calcularFibonacci(i));
+            System.out.printf("%.0f, ", calcularFibonacci(i));
         }
 
         sc.close();
